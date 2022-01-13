@@ -1,0 +1,56 @@
+footer {
+    position: relative;
+    background: #0C1324;
+    padding: 50px 0;
+}
+
+footer img {
+    width: 65px;
+    margin: 0 30px;
+}
+
+footer .sponsors {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #ff1541;
+}
+.main-foot {
+    margin-top: 40px;
+}
+.main-foot h6 {
+    font-size: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #f4f4f4;
+}
+.main-foot li {
+    margin: 13px 0;
+}
+.main-foot a {
+    font-size: 12px;
+    color: #a6adbb;
+}
+.main-foot a:hover {
+    border-bottom: 1px solid #a6adbb;
+}
+.part-5 ul {
+    display: flex;
+}
+.main-foot .part-5 i  {
+    font-size: 25px;
+    opacity: .7;
+    transition: .3s;
+}
+.main-foot .part-5 i:hover {
+    opacity: 1;
+}
+.main-foot .part-5 a {
+    color: #f4f4f4;
+    margin-right: 10px;
+}
+.main-foot .part-5 a:hover {
+    border-bottom: none;
+}
+.foot-logo img {
+    width: 84px;
+    height: 85px;
+    margin-top: 75px;
+}

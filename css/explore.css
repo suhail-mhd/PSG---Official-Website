@@ -1,0 +1,83 @@
+.explore {
+    margin-bottom: 50px;
+}
+.explore .card-img img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    transition: 5s ease;
+}
+.explore .play {
+    position: absolute;
+    margin-top: -190px;
+}
+.explore .play i {
+    font-size: 30px;
+    color: #f4f4f4;
+    padding: 0 15px;
+}
+.explore .play .tv {
+    position: absolute;
+    left: 0;
+    top: -14px;
+    font-size: 11px;
+    color: #fff;
+    background: #333;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+.explore .card:hover img {
+    transform: scale(1.3);
+}
+.explore .card-text p {
+    opacity: 0.7;
+    font-size: 13px;
+    margin: 15px 0;
+    color: #66806A;
+}
+.explore span {
+    color: #ff1541;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.explore h4.shop {
+    margin-top: 15px;
+}
+.explore span.shop {
+    font-size: 15px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ff1541;
+}
+.explore span.olle {
+    color: #009DAE;
+}
+.explore .card-img {
+    overflow: hidden;
+}
+.explore .card {
+    cursor: pointer;
+    transition: 5s ease;
+}
+
+.more {
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.more .main {
+    color: #66806A;
+    margin-right: 40px;
+}
+.more li a{
+    margin: 0 15px;
+    color: #000;
+}
+.more li a:hover {
+    border-bottom: 1px solid #000;
+}

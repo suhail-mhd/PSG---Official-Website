@@ -1,0 +1,68 @@
+.navbar {
+    position: relative;
+    padding: 20px;
+}
+.navbar .flex {
+    justify-content: space-between;
+}
+.main-nav a {
+    color: #333;
+}
+
+.main-nav .logo img {
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    border-radius: 50%;
+}
+
+.main-nav .menu-btn i {
+    font-size: 30px;
+}
+
+.main-nav i {
+    font-size: 23px;
+}
+
+.nav-right {
+    display: flex;
+}
+.nav-right li {
+    padding: 10px;
+}
+
+.main-nav li  {
+    border-right: 1px solid #edeef2;
+    height: 10px;
+}
+.main-nav li:last-child  {
+    border-right: none;
+}
+
+.nav-item {
+    margin-top: 30px;
+}
+
+.nav-item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item li {
+    padding: 0 20px;
+}
+
+.nav-item ul a {
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+    font-size: 18px;
+}
+
+.nav-item ul a:hover {
+    border-bottom: 2px solid #D3DEDC;
+    bottom: -4px;
+}
